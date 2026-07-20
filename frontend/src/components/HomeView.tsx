@@ -4,7 +4,7 @@ export default function HomeView() {
     return (
         <div className="view active">
             <div className="hero">
-                <div className="eyebrow" style={{ justifyContent: "center", display:"flex" }}> Welcome</div>
+                <div className="eyebrow" fill={{ justifyContent: "center", display:"flex" }}> Welcome</div>
                 <h1>Understand what your genomic data actually means. </h1>
                 <p>Upload gene expression data or look up a single mutation - we'll explain the biology in plain language, 
                     backed by the evidence behind it.</p>
